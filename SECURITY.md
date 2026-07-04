@@ -20,8 +20,8 @@ In scope for this policy:
   `.dmg` / `.app.tar.gz`).
 - The Tauri auto-updater path (`latest.json` manifest fetch + signature
   verification of update artifacts).
-- The Cloudflare worker at `https://reflog-worker.ramon-4ce.workers.dev`
-  (license fulfillment + Paddle webhook handling + Keygen license issuance).
+- The Cloudflare fulfillment worker (Paddle webhook handling + Keygen
+  license issuance + license-key email delivery).
 - The marketing site at `reflog.run`.
 
 ## Out of scope
